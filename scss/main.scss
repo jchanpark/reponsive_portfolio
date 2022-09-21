@@ -82,10 +82,14 @@ main {
   'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
 
+  h6 {
+    font-size: 15px;
+    font-weight: 200;
+  }
+
   .bio-image {
     grid-area: bioimage;
     margin: auto;
-    // border-radius: 50%;
     border: $secondary-color 3px solid;
   
   }
