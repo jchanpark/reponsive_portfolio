@@ -140,8 +140,8 @@ main {
     height: 70%;
     border: 3px #fff solid;
 
-    &:hover {
-      opacity: 0.5;
+    a:hover {
+      // opacity: 0.5;
       border-color: $secondary-color;
       @include easeOut;
     }
