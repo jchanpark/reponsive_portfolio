@@ -197,8 +197,7 @@ main {
     width: 100%;
     height: 70%;
     border: 3px #fff solid; }
-    .projects img:hover {
-      opacity: 0.5;
+    .projects img a:hover {
       border-color: orangered;
       transition: all 0.5s ease-out; }
 
